@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 350px;
+  height: 450px;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  height: 100px;
+  width: 100px;
+}
+.toss-container {
+  display: flex;
+  flex-direction: row;
+}
+.heading {
+  margin: 10px;
+}
+.toss {
+  color: #a35200;
+}
+.para {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 600;
+}
+.btn {
+  background-color: #e2a139;
+  color: #a35200;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
